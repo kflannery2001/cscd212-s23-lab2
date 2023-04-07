@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0cb4c5d-5620-46a4-a372-85dd70a1e397" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cscd212comparatos/lab2/TelevisionModelScreenSizeComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cscd212comparatos/lab2/TelevisionResolutionMakeDescendingComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cscd212comparatos/lab2/TelevisionScreenSizeComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cscd212-s23-lab2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cscd212-s23-lab2.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +27,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -43,6 +44,28 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="TATelevisionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cscd212-s23-lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cscd212tests.lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cscd212tests.lab2" />
+      <option name="MAIN_CLASS_NAME" value="cscd212tests.lab2.TATelevisionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TATelevisionTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,6 +75,10 @@
       <option name="presentableId" value="Default" />
       <updated>1680887362200</updated>
       <workItem from="1680887365889" duration="570000" />
+      <workItem from="1680888564738" duration="74000" />
+      <workItem from="1680889220584" duration="77000" />
+      <workItem from="1680889330577" duration="235000" />
+      <workItem from="1680889651015" duration="369000" />
     </task>
     <servers />
   </component>
