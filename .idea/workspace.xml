@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0cb4c5d-5620-46a4-a372-85dd70a1e397" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cscd212comparators/lab2/TelevisionModelScreenSizeComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cscd212comparators/lab2/TelevisionResolutionMakeDescendingComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cscd212comparators/lab2/TelevisionScreenSizeComparator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscd212-s23-lab2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cscd212-s23-lab2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cscd212classes/lab2/Television.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/cscd212classes/lab2/Television.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cscd212classes/lab2/Television.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cscd212classes/lab2/Television.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cscd212comparators/lab2/TelevisionModelScreenSizeComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cscd212comparators/lab2/TelevisionModelScreenSizeComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cscd212comparators/lab2/TelevisionResolutionMakeDescendingComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cscd212comparators/lab2/TelevisionResolutionMakeDescendingComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cscd212comparators/lab2/TelevisionScreenSizeComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cscd212comparators/lab2/TelevisionScreenSizeComparator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +27,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2O6iHmeXEB6pRSzO5fG0pezrZgL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "true",
@@ -79,10 +89,14 @@
       <workItem from="1680889220584" duration="77000" />
       <workItem from="1680889330577" duration="235000" />
       <workItem from="1680889651015" duration="369000" />
+      <workItem from="1680901951384" duration="3134000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

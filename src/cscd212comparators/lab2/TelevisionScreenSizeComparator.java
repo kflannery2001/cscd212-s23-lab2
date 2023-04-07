@@ -1,4 +1,13 @@
 package cscd212comparators.lab2;
 
-public class TelevisionScreenSizeComparator {
+import cscd212classes.lab2.Television;
+
+import java.util.Comparator;
+
+public class TelevisionScreenSizeComparator extends Object implements Comparator<Television> {
+
+    public int compare(final Television t1, final Television t2) {
+        return t1.getScreenSize() - t2.getScreenSize();
+    }
+
 }

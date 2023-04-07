@@ -10,8 +10,8 @@ public class Television extends Object implements Comparable<Television> {
     private final boolean fourK;
 
     public Television(final String make, final String model, final boolean smart, final int screenSize, final int resolution) {
-        if (make.isEmpty() || model.isEmpty() || make == null || model == null || screenSize < 32 || resolution < 720)
-            throw new IllegalArgumentException("strings are null or empty or the screen size is less than 32 or the resolution is less than 720");
+        if (make == null || model == null || make.isEmpty() || model.isEmpty() || screenSize < 32 || resolution < 720)
+            throw new IllegalArgumentException("Invalid parameter in constructor");
         this.make = make;
         this.model = model;
         this.screenSize = screenSize;
@@ -47,13 +47,13 @@ public class Television extends Object implements Comparable<Television> {
         //No Smart or 4K Example: TCL-NS32R, 32 inch tv with 720 resolution
         //Smart and 4K Example: Samsung-SM85U, 85 inch smart tv with 4K resolution
         if (smart && fourK)
-            return make + ", " + screenSize + " inch smart tv with 4k resolution";
+            return make + "-" + model + ", " + screenSize + " inch smart tv with 4K resolution";
         else if (smart)
-            return make + ", " + screenSize + " inch smart tv with " + resolution + " resolution";
+            return make + "-" + model + ", " + screenSize + " inch smart tv with " + resolution + " resolution";
         else if (fourK)
-            return make + ", " + screenSize + " inch tv with 4k resolution";
+            return make + "-" + model + ", " + screenSize + " inch tv with 4K resolution";
         else
-            return make + ", " + screenSize + " inch tv with " + resolution + " resolution";
+            return make + "-" + model + ", " + screenSize + " inch tv with " + resolution + " resolution";
     }
 
     @Override
@@ -83,7 +83,7 @@ public class Television extends Object implements Comparable<Television> {
     public int compareTo(final Television another) {
         //The compareTo method compares based on the make. If the makes are the same then it compares based on the model. If the models are the same it compares based on the screen size.
         if (another == null)
-            throw new IllegalArgumentException("another is null");
+            throw new IllegalArgumentException("null parameter in the compareTo method");
         int makeComp = this.make.compareTo(another.make);
         int modelComp = this.model.compareTo(another.model);
         int screenComp = this.screenSize - another.screenSize;
