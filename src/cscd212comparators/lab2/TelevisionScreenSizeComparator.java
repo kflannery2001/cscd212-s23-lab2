@@ -1,4 +1,4 @@
-package cscd212comparatos.lab2;
+package cscd212comparators.lab2;
 
 public class TelevisionScreenSizeComparator {
 }
